@@ -4,15 +4,15 @@
 3
 <head>
 4
-<title>My Website</title>
+<title>VitalNest</title>
 5
 </head>
 6
 <body>
 7
-<h1>Welcome to My Website!</h1>
+<h1>Family Tree</h1>
 8
-<p>This is my first website.</p>
+<p>Building connections across generations.</p>
 9
 </body>
 10
