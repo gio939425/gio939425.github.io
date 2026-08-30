@@ -1,20 +1,11 @@
-index.html
-<!DOCTYPE html>
+# VitalNest
 2
-<html>
+ 
 3
-<head>
+Building connections across generations.
 4
-<title>VitalNest</title>
+ 
 5
-</head>
+## About
 6
-<body>
-7
-<h1>VitalNest</h1>
-8
-<p>Building connections across generations.</p>
-9
-</body>
-10
-</html>
+VitalNest is a family-focused platform designed to help people preserve family history and stay connected across generations.
