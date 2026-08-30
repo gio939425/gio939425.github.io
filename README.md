@@ -10,7 +10,7 @@
 6
 <body>
 7
-<h1>Family Tree</h1>
+<h1>VitalNest</h1>
 8
 <p>Building connections across generations.</p>
 9
