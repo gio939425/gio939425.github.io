@@ -1,11 +1,33 @@
-# VitalNest
+<!DOCTYPE html>
 2
- 
+<html>
 3
-Building connections across generations.
+<head>
 4
- 
+<title>VitalNest</title>
 5
-## About
+</head>
 6
-VitalNest is a family-focused platform designed to help people preserve family history and stay connected across generations.
+<body>
+7
+<h1>VitalNest</h1>
+8
+ 
+9
+<h2>Design Your Dream Home</h2>
+10
+ 
+11
+<p>
+12
+Turn your vision into reality. Explore layouts,
+13
+ideas, and practical planning tools to build the
+14
+home you've always imagined.
+15
+</p>
+16
+</body>
+17
+</html>
