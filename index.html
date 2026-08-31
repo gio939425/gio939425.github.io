@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-2
 <html>
-3
 <head>
-4
 <title>HomeVision AI</title>
-5
 </head>
-6
 <body>
-7
  
-8
 <h1>HomeVision AI</h1>
-9
  
-10
-<h2>Featured Properties</h2>
-11
+<input
+type="text"
+id="search"
+placeholder="Search homes..."
+>
  
-12
-<div>
-13
-<h3>123 Palm Drive</h3>
-14
-<p>Price: $450,000</p>
-15
-<p>3 Bed • 2 Bath</p>
-16
-</div>
-17
+<button onclick="searchHomes()">
+Search
+</button>
  
-18
-<div>
-19
-<h3>456 Desert Road</h3>
-20
-<p>Price: $650,000</p>
-21
-<p>4 Bed • 3 Bath</p>
-22
-</div>
-23
+<p id="result"></p>
  
-24
+<script>
+function searchHomes() {\
+let value =
+document.getElementById("search").value;
+
+document.getElementById("result").innerHTML =
+"Searching for: " + value;
+}
+</script>
+ 
 </body>
-25
+ 
+<h1>HomeVision AI</h1>
+ 
+<h2>Featured Properties</h2>
+ 
+<div>
+<h3>123 Palm Drive</h3>
+<p>Price: $450,000</p>
+<p>3 Bed • 2 Bath</p>
+</div>
+ 
+<div>
+<h3>456 Desert Road</h3>
+<p>Price: $650,000</p>
+<p>4 Bed • 3 Bath</p>
+</div>
+ 
+</body>
 </html>
