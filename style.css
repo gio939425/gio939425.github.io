@@ -22,38 +22,9 @@ margin-right: 20px;
 }
  
 .hero {
+text-align: center;
 background: white;
 padding: 50px;
-text-align: center;
-}
- 
-.card {
-background: white;
-margin: 20px;
-padding: 20px;
-border-radius: 10px;
-}
-{
-font-family: Arial, sans-serif;
-background: #f4f4f4;
-margin: 0;
-}
- 
-nav {
-background: #0078d7;
-padding: 15px;
-}
- 
-nav a {
-color: white;
-text-decoration: none;
-margin-right: 20px;
-}
- 
-.hero {
-background: white;
-padding: 50px;
-text-align: center;
 }
  
 .card {
