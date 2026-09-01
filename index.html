@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html>
-<<style>
+<head>
+<title>HomeVision AI</title>
  
+<style>
 body{
-font-family: Arial;
-max-width: 1000px;
-margin:auto;
-padding:20px;
+font-family:Arial;
+margin:0;
+background:#f5f5f5;
 }
  
-div{
-border:1px solid #ddd;
+nav{
+background:#0078d7;
+padding:15px;
+text-align:center;
+}
+ 
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+ 
+.card{
+background:white;
 padding:20px;
-margin:10px;
+margin:20px;
 border-radius:10px;
 }
  
-</style>>
-<title>HomeVision AI</title>
+.hero{
+text-align:center;
+padding:50px;
+background:white;
+}
+</style>
 </head>
+ 
 <body>
  
+<nav>
+#homesHomes</a>
+#calculatorCalculator</a>
+<a pMap</a>
+</nav>
+ 
+<div class="hero">
 <h1>HomeVision AI</h1>
+<p>Find homes and estimate building costs.</p>
+</div>
  
-<input
-type="text"
-id="search"
-placeholder="Search homes..."
->
+<div class="card" id="homes">
+<h2>Featured Property</h2>
+<p>123 Palm Drive</p>
+<p>$450,000</p>
+<p>3 Bed • 2 Bath</p>
+</div>
  
-<button onclick="searchHomes()">
-Search
+<div class="card" id="calculator">
+<h2>Cost Calculator</h2>
+ 
+<input id="sqft" placeholder="Square Feet">
+ 
+<button onclick="estimate()">
+Estimate
 </button>
- 
 <p id="result"></p>
+</div>
  
-<script>
-function searchHomes() {\
-let value =
-document.getElementById("search").value;
-
+<div class="card" id="map">
+<h2>Map</h2>
+ 
+<iframe
+width="100%"
+height="400"
+src="https://www.google.com/maps?q=Indian+Wells,CA&outputtion estimate(){
+let sqft =
+document.getElementById("sqft").value;
+ 
+let cost = sqft * 180;
+ 
 document.getElementById("result").innerHTML =
-"Searching for: " + value;
+"Estimated Cost: $" + cost.toLocaleString();
 }
 </script>
  
 </body>
- 
-<h1>HomeVision AI</h1>
- 
-<h2>Featured Properties</h2>
- 
-<div>
-<h3>123 Palm Drive</h3>
-<p>Price: $450,000</p>
-<p>3 Bed • 2 Bath</p>
-</div>
- 
-<div>
-<h3>456 Desert Road</h3>
-<p>Price: $650,000</p>
-<p>4 Bed • 3 Bath</p>
-</div>
- 
-</body>
 </html>
-<nav>
-#homeHome</a>
-#propertiesProperties</a>
-<aapMap</a>
-<a href="#about">About</
-<input type="text" placeholder="Search homes..." />
-<button>Search</button>
-<iframe
-width="100%"
-height="400"
-src="https://www.google.com/maps?q=Indian+Wells,CA&output=embed">
-</
-  <h2>About HomeVision AI</h2>
-<p>
-Find homes, visualize furniture,
-view empty lots, and estimate
-building costs using AI.
-</p>
