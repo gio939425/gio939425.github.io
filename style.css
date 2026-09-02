@@ -20,13 +20,11 @@ body {
   background: white;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #2563eb;
+.logo img {
+height: 60px;
+width: auto;
+display: block;
 }
-
 .nav-links {
   display: flex;
   gap: 25px;
