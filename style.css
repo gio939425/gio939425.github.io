@@ -29,13 +29,16 @@ display: block;
   display: flex;
   gap: 25px;
 }
+<div class="logo">
+images/vitalnest-logo.png
+<span>HomeVision AI</span>
+</div>
 
 .nav-links a {
   text-decoration: none;
   color: #374151;
   font-weight: 500;
 }
-
 .nav-links a:hover {
   color: #2563eb;
 }
